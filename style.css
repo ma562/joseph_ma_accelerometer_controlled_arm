@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+.pic {
+	border-radius: 30px;
+}
+
+.shift {
+	margin-left: 20px;
+}
+
+.text{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+/*navbar*/
+.navbar {
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	padding: 15px 0;
+	font-family: 'Ubuntu', 'sans-serif;';
+	transition: all 0.3s ease;
+	background: #00274c;
+}
+
+.navbar.sticky {
+	padding: 15px 0;
+	background: #00274c;
+}
+
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+}
+
+.top_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.vid1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 2%;
+	width: 30%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.vid2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/*left: 2%;*/
+	width: 30%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.information {
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	text-align: justify;
+	color: #00274c;
+	width: 32%;
+	right: 2%;
+}
