@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0">
-		<title>Accelerometer Controlled Arm</title>
+		<title>Gyroscope Controlled Arm</title>
 		<link rel="icon" href="images/jm.png">
 		<link rel = "stylesheet" href="style.css">
 	</head>
 
 	<nav class = "navbar">
 		<div class = "max-width">
-			<div class = "logo"><a href="#">Accelerometer Controlled Arm</a></div>
+			<div class = "logo"><a href="#">Gyroscope Controlled Arm</a></div>
 			<ul class = "menu">
 				<li><a href="https://ma562.github.io/joseph_ma/#projects">Go Back</a></li>
 			</ul>
@@ -52,7 +52,15 @@
 			<div class = "gyroscope">
 				<div class = "text">Accelerometer and Gyroscope</div>
 				<p>
-					The accelerometer and gyroscope work hand in hand to keep track of the motion and position of the arm. Our smart phones have similar components which allow them to detect certain actions such as when we tilt the screen.
+					The accelerometer and gyroscope work hand in hand to keep track of the motion and position of the arm. Our smart phones have similar components which allow them to detect certain actions like when we tilt the screen. The main difference between the accelerometer and gyroscope is that the accelerometer measures linear acceleration while the gyroscope measures angular velocity. In other words, if you think about your space in the X, Y and Z coordinates, the accelerometer will measure how fast you move along the axes. On the other hand, the gyroscope will measure how fast you rotate around the axes. For example, if you place your phone flat on a table and spin round and round, that will be detected by the gyroscope. In contrast, if you slide your phone across the table, that will be detected by the accelerometer. <br><br>The GY-521 used here consists of both the accelerometer and gyroscope. It has 6DOF (Six Degrees of Freedom) meaning there are 6 parameters of measurement:<br><br>
+					<ul class = "shift">
+						<li>Surge: Forward and backward movement along the X-axis</li>
+						<li>Sway: Left and rigth movement along the Y-axis</li>
+						<li>Heave: Up and down movement along the Z-axis</li>
+						<li>Roll: Rotation about the X-axis</li>
+						<li>Pitch: Rotation about the Y-axis</li>
+						<li>Yaw: Rotation about the Z-axis</li>
+					</ul>
 				</p>
 			</div>
 			<div class = "vid3">
