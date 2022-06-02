@@ -156,6 +156,52 @@
 	right: 2%;
 }
 
+.bottom_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.vid5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 27%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+	left: 2%;
+}
+
+.vid6 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 27%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.hall_effect {
+	background: #e3e3e3;
+	width: 40%;
+	font-family: 'Poppins', sans-serif;
+	color: #00274c;
+	right: 2%;
+	position: relative;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: justify;
+}
+
 @media (max-width: 900px){
 
 	.vid1, .vid2, .information {
