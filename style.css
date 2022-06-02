@@ -136,11 +136,24 @@
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	width: 30%;
+	width: 27%;
 	padding: 2.5px;
 	background: #00274c;
 	border-radius: 20px;
 	text-align: center;
+}
+
+.vid4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 27%;
+	padding: 2.5px;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+	right: 2%;
 }
 
 @media (max-width: 900px){
