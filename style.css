@@ -204,13 +204,13 @@
 
 @media (max-width: 900px){
 
-	.vid1, .vid2, .information {
+	.vid3, .vid4, .gyroscope, .vid5, .vid6, .hall_effect, .vid1, .vid2, .information {
 		flex: 100%;
 		left: 0%;
 		right: 0%;
 		margin-bottom: 15px;
 	}
-	.information {
+	.gyroscope, .hall_effect, .information {
 		padding: 15px;
 	}
 	.top_info {
