@@ -203,7 +203,6 @@
 }
 
 @media (max-width: 900px){
-
 	.vid3, .vid4, .gyroscope, .vid5, .vid6, .hall_effect, .vid1, .vid2, .information {
 		flex: 100%;
 		left: 0%;
