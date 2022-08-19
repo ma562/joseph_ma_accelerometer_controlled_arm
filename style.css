@@ -227,3 +227,14 @@
 		font-size: 18px;
 	}
 }
+
+@media (max-width: 750px) {
+	.navbar .logo a{
+		color: #fff;
+		font-size: 12px;
+		font-weight: 600;
+	}
+	.navbar .menu li a{
+		font-size: 10px;
+	}
+}
